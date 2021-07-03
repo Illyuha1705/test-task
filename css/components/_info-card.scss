@@ -1,0 +1,37 @@
+.info__title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.info__about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+  &:last-child {
+    align-items: flex-start;
+  }
+}
+
+.info__text:last-child {
+  width: 70%;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 100%;
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    overflow: auto;
+  }
+
+  .info__text {
+    margin-left: 1rem;
+    color: $grey;
+    max-width: 17.5rem;
+  }
+}
